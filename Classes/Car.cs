@@ -1,6 +1,6 @@
 ﻿public class Car
 {
-    public string? make;
-    public string? model;
-    public int year;
+    public string? make{ get; set; }
+    public string? model{ get; set; }
+    public int year{ get; set; }
 }
